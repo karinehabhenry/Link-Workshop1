@@ -1,0 +1,249 @@
+
+.c1{
+    /* 05 */
+
+position: absolute;
+width: 190px;
+height: 422px;
+left: 315px;
+top: 2698.04px;
+
+
+}
+.c2{
+    /* 01 */
+
+position: absolute;
+width: 410px;
+height: 422px;
+left: 535px;
+top: 2698.04px;
+
+
+}
+.c3{
+    /* 04 */
+
+position: absolute;
+width: 190px;
+height: 422px;
+left: 975px;
+top: 2698.04px;
+
+
+}
+.c4{
+    /* 03 */
+
+position: absolute;
+width: 190px;
+height: 422px;
+left: 1195px;
+top: 2698.04px;
+
+
+}
+.c5{
+    /* 02 */
+
+position: absolute;
+width: 190px;
+height: 422px;
+left: 1415px;
+top: 2698.04px;
+
+
+}
+
+
+
+
+
+
+
+
+.bluebox2 {
+    position: absolute;
+    width: 100%; /* Assuming you want the blue box to stretch across */
+    height: 100%; /* Assuming you want the blue box to stretch across */
+    top: 0;
+    left: 0;
+    z-index: 1; /* Ensure the blue box is behind other images */
+  }
+  
+  .c1, .c2, .c3, .c4, .c5 {
+    position: absolute;
+    z-index: 2; /* Ensure images are above the blue box */
+    /* Adjust these positions based on your design */
+  }
+  
+  .c1 {
+    width: 100px;
+    height: 100px;
+    left: 100px;
+    top: 100px;
+  }
+  
+  .c2 {
+    width: 120px;
+    height: 120px;
+    left: 200px;
+    top: 150px;
+  }
+  
+  .c3 {
+    width: 150px;
+    height: 150px;
+    left: 300px;
+    top: 200px;
+  }
+  
+  .c4 {
+    width: 130px;
+    height: 130px;
+    left: 400px;
+    top: 250px;
+  }
+  
+  .c5 {
+    width: 140px;
+    height: 140px;
+    left: 500px;
+    top: 300px;
+  }
+  
+
+
+
+
+  .c1, .c2, .c3, .c4, .c5 {
+    /* position: absolute; */ /* Remove absolute positioning */
+    top: 350px; /* Adjust top positioning as needed */
+    z-index: 2; /* Ensure photos are above the blue box */
+}
+
+.c1 {
+    left: 100px; /* Adjust left positioning for c1 */
+}
+
+.c2 {
+    left: 250px; /* Adjust left positioning for c2 */
+}
+
+.c3 {
+    left: 400px; /* Adjust left positioning for c3 */
+}
+
+.c4 {
+    left: 550px; /* Adjust left positioning for c4 */
+}
+
+.c5 {
+    left: 700px; /* Adjust left positioning for c5 */
+}
+/* Text */
+
+position: absolute;
+width: 1287px;
+height: 30px;
+left: 315px;
+top: 10740.05px;
+
+
+
+/* Group 8199 */
+
+position: absolute;
+width: 402px;
+height: 30px;
+left: 1200px;
+top: 10740.05px;
+
+
+
+/* Trams & Condition */
+
+position: absolute;
+width: 138px;
+height: 30px;
+left: 1200px;
+top: 10740.05px;
+
+/* Body/M */
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+/* White */
+color: #FFFFFF;
+
+opacity: 0.8;
+
+
+/* Privacy Policy */
+
+position: absolute;
+width: 104px;
+height: 30px;
+left: 1377px;
+top: 10740.05px;
+
+/* Body/M */
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+/* White */
+color: #FFFFFF;
+
+opacity: 0.8;
+
+
+/* Contact Us */
+
+position: absolute;
+width: 86px;
+height: 30px;
+left: 1516px;
+top: 10740.05px;
+
+/* Body/M */
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+/* White */
+color: #FFFFFF;
+
+opacity: 0.8;
+
+
+/* © Yoursitename  2020 | All Rights Reserved */
+
+position: absolute;
+left: 16.41%;
+right: 66.88%;
+top: 99.45%;
+bottom: 0.27%;
+
+/* Body/M */
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+/* White */
+color: #FFFFFF;
+
+opacity: 0.8;
