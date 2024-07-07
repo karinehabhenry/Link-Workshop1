@@ -5,6 +5,14 @@ body {
 background: #F1F5EB;
 }
 
+:root{
+    --darkBlue:#2437AC;
+    --BabyBlue: #00B8FF;
+    --FontJ:'Plus Jakarta Sans';
+}
+
+
+
 .header-container {
     display: flex;
     align-items: center;
@@ -21,13 +29,13 @@ background: #F1F5EB;
 position: absolute;
 width: 630px;
 height: 120px;
-font-family: 'Plus Jakarta Sans';
+font-family: var(--FontJ);
 font-style: normal;
 font-weight: 700;
 font-size: 50px;
 line-height: 60px;
 text-align: center;
-color: #2437AC;
+color: var(--darkBlue);
 }
 
 /* BLUE SUBTITLES */
@@ -36,7 +44,7 @@ color: #2437AC;
 position: absolute;
 width: 200px;
 height: 14px;
-font-family: 'Plus Jakarta Sans';
+font-family: var(--FontJ);
 font-style: normal;
 font-weight: 600;
 font-size: 14px;
@@ -44,7 +52,7 @@ line-height: 14px;
 text-align: center;
 letter-spacing: 1.4px;
 text-transform: uppercase;
-color: #2437AC;
+color: var(--darkBlue);
 flex: none;
 order: 1;
 flex-grow: 0;
@@ -59,13 +67,14 @@ flex-grow: 0;
 }
 
 .travelx {
-    font-family: 'Plus Jakarta Sans', sans-serif;
+    /* font-family: 'Plus Jakarta Sans', sans-serif; */
+    font-family: var(--FontJ);
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
     line-height: 40px;
     letter-spacing: -1.44px;
-    color: #2437AC;
+    color: var(--darkBlue);
     padding-left: 10px;
 }
 
@@ -86,14 +95,14 @@ flex-grow: 0;
     line-height: 26px;
     letter-spacing: 1.4px;
     text-transform: uppercase;
-    color: #2437AC;
+    color: var(--darkBlue);
 }
 
 .fas {
     font-weight: 900;
     font-size: 10px;
     line-height: 10px;
-    color: #2437AC;
+    color: var(--darkBlue);
 }
 
 .appointment {
@@ -113,7 +122,7 @@ flex-grow: 0;
     height: 800px;
     left: 60px;
     top: 120px;
-    background: #2437AC;
+    color: var(--darkBlue);
     border-radius: 50px;
 }
 
@@ -155,7 +164,7 @@ flex-grow: 0;
     height: 270px;
     left: 315px;
     top: 356.03px;
-    font-family: 'Plus Jakarta Sans';
+    font-family: var(--FontJ);
     font-style: normal;
     font-weight: 700;
     font-size: 80px;
@@ -175,7 +184,7 @@ flex-grow: 0;
     height: 28px;
     left: 566.96px;
     top: 682.03px;
-    font-family: 'Plus Jakarta Sans';
+    font-family: var(--FontJ);
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -201,7 +210,7 @@ flex-grow: 0;
 
     border: 1px solid #FFFFFF;
     border-radius: 999px;
-    font-family: 'Plus Jakarta Sans';
+    font-family: var(--FontJ);
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -253,18 +262,18 @@ flex-grow: 0;
 } */
 
 .text1,.text11,.text111 {
-    font-family: 'Plus Jakarta Sans';
+    font-family: var(--FontJ);
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 30px;
     text-align: left;
-    color: #2437AC;
+    color: var(--darkBlue);
     margin-top: 20px;
 }
 
 .text2,.text22,.text222 {
-    font-family: 'Plus Jakarta Sans';
+    font-family: var(--FontJ);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -327,7 +336,7 @@ flex-grow: 0;
     height: 60px;
     left: calc(298px + 61px); 
     top: 30px;
-    font-family: 'Plus Jakarta Sans';
+    font-family: var(--FontJ);
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
@@ -341,7 +350,7 @@ flex-grow: 0;
     height: 56px;
     left: calc(298px + 140px); 
     top: 32px;
-    font-family: 'Plus Jakarta Sans';
+    font-family: var(--FontJ);
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -354,12 +363,12 @@ flex-grow: 0;
     height: 14px;
     left: 715px;
     top: 45px;
-    font-family: 'Plus Jakarta Sans';
+    font-family: var(--FontJ);
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 14px;
-    color: #2437AC;
+    color: var(--darkBlue);
   
     flex: none;
     order: 1;
@@ -372,7 +381,7 @@ height: 120px;
 left: 695px;
 top: 55px;
 
-font-family: 'Plus Jakarta Sans';
+font-family: var(--FontJ);
 font-style: normal;
 font-weight: 700;
 font-size: 50px;
@@ -393,7 +402,7 @@ line-height: 60px;
     height: 90px;
     left: 695px;
     top: 168px;
-    font-family: 'Plus Jakarta Sans';
+    font-family: var(--FontJ);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -422,19 +431,19 @@ line-height: 60px;
 }
 
 .tt1,.tt2{
-font-family: 'Plus Jakarta Sans';
+font-family: var(--FontJ);
 font-style: normal;
 font-weight: 700;
 font-size: 22px;
 line-height: 30px;
-color: #2437AC;
+color: var(--darkBlue);
 left:20000;
 }
 
 .pp1,.pp11,.pp2,.pp22{
 width: 202px;
 height: 30px;
-font-family: 'Plus Jakarta Sans';
+font-family: var(--FontJ);
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -462,7 +471,7 @@ flex-grow: 0;
 
     border: 1px solid blue;
     border-radius: 999px;
-    font-family: 'Plus Jakarta Sans';
+    font-family: var(--FontJ);
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -486,12 +495,12 @@ width: 87px;
 height: 30px;
 left: 995px;
 top: 550px;
-font-family: 'Plus Jakarta Sans';
+font-family: var(--FontJ);
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 30px;
-color: #2437AC;
+color: var(--darkBlue);
 }
 .call2{
 position: absolute;
@@ -499,12 +508,12 @@ width: 131px;
 height: 28px;
 left: 995px;
 top: 570px;
-font-family: 'Plus Jakarta Sans';
+font-family: var(--FontJ);
 font-style: normal;
 font-weight: 600;
 font-size: 18px;
 line-height: 28px;
-color: #2437AC;
+color: var(--darkBlue);
 }
 
 .body4-container{     
@@ -528,7 +537,7 @@ top: 2374.04px;
     height: 14px;
     left: 300px;
     top: 176px; 
-    font-family: 'Plus Jakarta Sans';
+    font-family: var(--FontJ);
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -547,7 +556,7 @@ top: 2374.04px;
     height: 120px;
     left: 300px; 
     top: 200px; 
-    font-family: 'Plus Jakarta Sans';
+    font-family: var(--FontJ);
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
@@ -569,7 +578,7 @@ top: 2374.04px;
     height: 120px;
     left: 300px; 
     top: 200px; 
-    font-family: 'Plus Jakarta Sans';
+    font-family: var(--FontJ);
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
@@ -673,12 +682,12 @@ border-radius: 20px;
 
 .v1, .v2, .v3, .v4 {
     position: absolute;
-    font-family: 'Plus Jakarta Sans';
+    font-family: var(--FontJ);
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 30px;
-    color: #2437AC;
+    color: var(--darkBlue);
     top: 40px; 
     left: 300px; 
   }
@@ -697,7 +706,7 @@ border-radius: 20px;
   
   .v11, .v22, .v33, .v44 {
     position: absolute;
-    font-family: 'Plus Jakarta Sans';
+    font-family: var(--FontJ);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -727,12 +736,12 @@ width: 600px;
 height: 120px;
 left: 350px;
 top: 4329.04px;
-font-family: 'Plus Jakarta Sans';
+font-family: var(--FontJ);
 font-style: normal;
 font-weight: 700;
 font-size: 50px;
 line-height: 60px;
-color: #2437AC;
+color: var(--darkBlue);
 }
 .text7-0 {
     left: 350px;
@@ -823,17 +832,17 @@ filter: drop-shadow(0px 0px 60px rgba(0, 0, 0, 0.05));
 border-radius: 20px;
 }
 .k1, .k2, .k3, .k4 {
-    font-family: 'Plus Jakarta Sans';
+    font-family: var(--FontJ);
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 30px;
-    color: #2437AC;
+    color: var(--darkBlue);
 }
 .j1{
 width: 138px;
 height: 30px;
-font-family: 'Plus Jakarta Sans';
+font-family: var(--FontJ);
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -879,7 +888,7 @@ width: 250px;
 height: 14px;
 left: 315px;;
 top: 5700.04px;
-font-family: 'Plus Jakarta Sans';
+font-family: var(--FontJ);
 font-style: normal;
 font-weight: 600;
 font-size: 14px;
@@ -887,7 +896,7 @@ line-height: 14px;
 text-align: center;
 letter-spacing: 1.4px;
 text-transform: uppercase;
-color: #2437AC;
+color: var(--darkBlue);
 flex: none;
 order: 1;
 flex-grow: 0;
@@ -899,12 +908,12 @@ width: 630px;
 height: 120px;
 left: 317px;;
 top: 5717.04px;
-font-family: 'Plus Jakarta Sans';
+font-family: var(--FontJ);
 font-style: normal;
 font-weight: 700;
 font-size: 50px;
 line-height: 60px;
-color: #2437AC;
+color: var(--darkBlue);
   }
  .g91{
 position: absolute;
@@ -947,7 +956,7 @@ width: 190px;
 height: 60px;
 left: 40px;
 top: 70px;
-font-family: 'Plus Jakarta Sans';
+font-family: var(--FontJ);
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -961,12 +970,12 @@ width: 176px;
 height: 30px;
 left: 40px;
 top: 30px;
-font-family: 'Plus Jakarta Sans';
+font-family: var(--FontJ);
 font-style: normal;
 font-weight: 700;
 font-size: 22px;
 line-height: 30px;
-color: #2437AC;
+color: var(--darkBlue);
 }
 .t100{
 position: absolute;
@@ -974,7 +983,7 @@ width: 150px;
 height: 14px;
 left: 350px;
 top: 6550px;
-font-family: 'Plus Jakarta Sans';
+font-family: var(--FontJ);
 font-style: normal;
 font-weight: 600;
 font-size: 14px;
@@ -982,7 +991,7 @@ line-height: 14px;
 text-align: center;
 letter-spacing: 1.4px;
 text-transform: uppercase;
-color: #2437AC;
+color: var(--darkBlue);
 flex: none;
 z-index: 2;
 }
@@ -992,12 +1001,12 @@ width: 630px;
 height: 120px;
 left: 350px;
 top: 6575.04px;
-font-family: 'Plus Jakarta Sans';
+font-family: var(--FontJ);
 font-style: normal;
 font-weight: 700;
 font-size: 50px;
 line-height: 60px;
-color: #2437AC;
+color: var(--darkBlue);
 z-index: 2;
 }
 .img100{
@@ -1042,12 +1051,12 @@ top: 7075.04px;
     width: 169px;
     height: 30px;
     left: 350px;
-    font-family: 'Plus Jakarta Sans';
+    font-family: var(--FontJ);
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 30px;
-    color: #2437AC;
+    color: var(--darkBlue);
     z-index: 3;
 }
 
@@ -1056,7 +1065,7 @@ top: 7075.04px;
     width: 200px;
     height: 30px;
     left: 350px;
-    font-family: 'Plus Jakarta Sans';
+    font-family: var(--FontJ);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -1146,12 +1155,12 @@ top: 400.04px;
 position: absolute;
 width: 480px;
 height: 30px;
-font-family: 'Plus Jakarta Sans';
+font-family: var(--FontJ);
 font-style: normal;
 font-weight: 700;
 font-size: 22px;
 line-height: 30px;
-color: #2437AC;
+color: var(--darkBlue);
 }
 .sub11-1,.sub11-2,.sub11-3{
 left: 60px;
@@ -1161,12 +1170,12 @@ top: 70.04px;
 position: absolute;
 width: 330px;
 height: 60px;
-font-family: 'Plus Jakarta Sans';
+font-family: var(--FontJ);
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 30px;
-color: #2437AC;
+color: var(--darkBlue);
 }
 .n-1,.n-2,.n-3{
 left: 60px;
@@ -1178,14 +1187,14 @@ width: 150px;
 height: 14px;   
 left: 340px;
 top: 9060.05px;
-font-family: 'Plus Jakarta Sans';
+font-family: var(--FontJ);
 font-style: normal;
 font-weight: 600;
 font-size: 14px;
 line-height: 14px;
 letter-spacing: 1.4px;
 text-transform: uppercase;
-color: #2437AC;
+color: var(--darkBlue);
 flex: none;
 order: 1;
 flex-grow: 0;
@@ -1196,12 +1205,12 @@ flex-grow: 0;
     height: 120px;
     left: 315px;
     top: 9090.05px;
-    font-family: 'Plus Jakarta Sans';
+    font-family: var(--FontJ);
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
     line-height: 60px;
-    color: #2437AC;
+    color: var(--darkBlue);
 }
 .box1{
 box-sizing: border-box;
@@ -1240,7 +1249,7 @@ left: 34px;
 right: 50.89%;
 top: 360px;
 bottom: 10.58%;
-font-family: 'Plus Jakarta Sans';
+font-family: var(--FontJ);
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
@@ -1256,7 +1265,7 @@ left: 300px;
 right: 41.41%;
 top: 360px;
 bottom: 10.58%;
-font-family: 'Plus Jakarta Sans';
+font-family: var(--FontJ);
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
@@ -1269,12 +1278,12 @@ width: 330px;
 height: 60px;
 left: 30px;
 top: 430px;
-font-family: 'Plus Jakarta Sans';
+font-family: var(--FontJ);
 font-style: normal;
 font-weight: 700;
 font-size: 22px;
 line-height: 30px;
-color: #2437AC;
+color: var(--darkBlue);
 }
 .boxsub1,.boxsub2,.boxsub3{
 position: absolute;
@@ -1282,7 +1291,7 @@ width: 330px;
 height: 60px;
 left: 30px;
 top: 500px;
-font-family: 'Plus Jakarta Sans';
+font-family: var(--FontJ);
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -1294,12 +1303,12 @@ position: absolute;
 height: 30px;
 left: 30px;
 top: 580px;
-font-family: 'Plus Jakarta Sans';
+font-family: var(--FontJ);
 font-style: normal;
 font-weight: 600;
 font-size: 14px;
 line-height: 30px;
-color: #2437AC;
+color: var(--darkBlue);
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -1318,7 +1327,7 @@ background: #2437AC;
     height: 72px;
     left: 410px;
     top: 60px;
-    font-family: 'Plus Jakarta Sans';
+    font-family: var(--FontJ);
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
@@ -1333,7 +1342,7 @@ width: 350px;
 height: 72px;
 left: 1200px;
 top: 60px;
-font-family: 'Plus Jakarta Sans';
+font-family: var(--FontJ);
 font-style: normal;
 font-weight: 600;
 font-size: 30px;
@@ -1365,7 +1374,7 @@ left: 350px;
 top: 310px;
 width: 107px;
 height: 40px;
-font-family: 'Plus Jakarta Sans';
+font-family: var(--FontJ);
 font-style: normal;
 font-weight: 700;
 font-size: 32px;
@@ -1383,7 +1392,7 @@ width: 250px;
 height: 100px;
 left: 315px;
 top: 370px;
-font-family: 'Plus Jakarta Sans';
+font-family: var(--FontJ);
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -1417,7 +1426,7 @@ width: 250px;
 height: 30px;
 left: 0px;
 top: 0px;
-font-family: 'Plus Jakarta Sans';
+font-family: var(--FontJ);
 font-style: normal;
 font-weight: 700;
 font-size: 22px;
@@ -1428,7 +1437,7 @@ color: #FFFFFF;
 width: 110px;
 height: 30px;
 /* top:30px; */
-font-family: 'Plus Jakarta Sans';
+font-family: var(--FontJ);
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -1446,7 +1455,7 @@ left: 315px;
 top: 620px;
 }
 .text14-16,.text14-17,.text14-18,.text14-19{
-font-family: 'Plus Jakarta Sans';
+font-family: var(--FontJ);
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
