@@ -75,47 +75,6 @@ top: 6790.04px;
   left: 1113px;
   top: 6790.04px;
  }
- /* color: rgb(255, 255, 255); */
-
- /* .icon-arrow2-body10-1.path1:before {
-  position: absolute;
-  content: "\e94d";
-  color: red;
-  font-size: 4em;
-  z-index: 3;
-  left: 1113px;
-  top: 6890.04px;
-}
-.icon-arrow2-body10-1.path2:before {
-  position: absolute;
-  content: "\e94e";
-  margin-left: -0.9833984375em;
-  color: rgb(36, 55, 172);
-  font-size: 4em;
-  z-index: 2;
-  left: 1113px;
-  top: 6890.04px;
-}
-
-.icon-arrow2-body10-2.path1:before {
-  position: absolute;
-  content: "\e94d";
-  color: rgb(255, 255, 255);
-  font-size: 4em;
-  z-index: 2;
-  left: 1113px;
-  top: 6990.04px;
-}
-.icon-arrow2-body10-2.path2:before {
-  position: absolute;
-  content: "\e94e";
-  margin-left: -0.9833984375em;
-  color: rgb(36, 55, 172);
-  font-size: 4em;
-  z-index: 2;
-  left: 1113px;
-  top: 6990.04px;
-}  */
 .icon-arrow2-body9 .path1:before {
   content: "\e920";
   color: rgb(0, 184, 255);
