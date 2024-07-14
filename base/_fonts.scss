@@ -1,0 +1,348 @@
+.textonblue {
+    position: absolute;
+    width: 700px;
+    padding-left: 12%;
+    font-family: $FontJ;
+    font-weight: 700;
+    font-size: 4rem;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.textonblue2 {
+    position: absolute;
+    width: 221.96px;
+    font-family: $FontJ;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 28px;
+    color: #FFFFFF;
+    left: 390px;
+    top: 505.03px;
+}
+.textonblue3{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+    gap: 10px;
+
+    position: absolute;
+    width: 157px;
+    height: 60px;
+    left: 180px;
+    top: 490.03px;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 999px;
+    font-family: $FontJ;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.cardtitle {
+    font-family:$FontJ;
+    font-weight: 700;
+    font-size: 1.375rem;
+    color: $darkBlue;
+}
+.cardsub {
+    font-family:$FontJ;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #727272;
+    margin-top: 10px;
+    line-height: 30px;
+}
+.b1 {
+    position: absolute;
+    // width: 61px;
+    // height: 60px;
+    // left: calc(298px + 61px); 
+    // top: 30px;
+    padding-left: 38%;
+    padding-top: 1%;
+    font-family: $FontJ;
+    // font-style: normal;
+    font-weight: 700;
+    font-size: 3.125rem;
+    // line-height: 60px;
+    color: #FFFFFF;
+}
+.b2 {
+    position: absolute;
+    width: 10%;
+    padding-left: 43%;
+    padding-top: 2%;
+    font-family: $FontJ;
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: #FFFFFF;
+}
+.why {
+    position: absolute;
+    width: 138px;
+    left: 715px;
+    top: 45px;
+    font-family: $FontJ;
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: $darkBlue;
+}
+.wanderluts {
+position: absolute;
+width: 630px;
+left: 695px;
+top: 55px;
+font-family: $FontJ;
+font-weight: 700;
+font-size: 2.125rem;
+line-height: 60px;
+}
+  .black-text {
+    color: #16171A; 
+}
+  .blue-text {
+    color: blue;
+}
+  .par {
+    position: absolute;
+    width: 630px;
+    left: 695px;
+    top: 168px;
+    font-family: $FontJ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 30px;
+    color: #727272; 
+  }
+  
+.tt1{
+    font-family: $FontJ;
+    font-weight: 700;
+    font-size: 1.375rem;
+    color: $darkBlue;
+    }
+    
+    .pp1{
+    font-family: $FontJ;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #727272;
+    }
+.text5-0{
+        position: absolute;
+        left: 10%;
+        top: 10%; 
+        font-family: $FontJ;
+        font-size: 0.875rem;
+        letter-spacing: 1.4px;
+        color: #FFFFFF;
+ }
+.text5-1{
+        position: absolute;
+        width: 730px;
+        left: 10%; 
+        top: 15%; 
+        font-family: $FontJ;
+        font-weight: 700;
+        font-size: 3.125rem;
+        line-height: 60px;
+        color: #FFFFFF; 
+ }
+
+ .titlemid {
+  width: 630px;
+  font-family: $FontJ;
+  font-weight: 700;
+  font-size: 3.125rem;
+  text-align: center;
+  color: $darkBlue;
+}
+
+.submid {
+  font-family: $FontJ;
+  font-size: 0.875rem;
+  text-align: center;
+  letter-spacing: 1.4px;
+  color: $darkBlue;
+}
+.titleleft {
+  position: absolute;
+  width: 730px;
+  font-family: $FontJ;
+  font-weight: 700;
+  font-size: 3.125rem;
+  color: $darkBlue;
+  text-align: left;
+  margin-top: 2%;
+}
+
+.subleft {
+  font-family: $FontJ;
+  font-size: 0.875rem;
+  margin-left: 0%;
+  letter-spacing: 1.4px;
+  color: $darkBlue;
+}
+.boxtitle {
+  font-family: $FontJ;
+  font-weight: 700;
+  font-size: 1.375rem;
+  color: $darkBlue;
+  margin-bottom: 10px;
+}
+
+.boxpar {
+  font-family: $FontJ;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 30px;
+  color: #727272;
+}
+.viewtext{
+  color:#FFFFFF;
+  font-size:1.25rem;
+  }
+.boardtitle {
+  font-family: $FontJ;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.375rem;
+  color: $darkBlue;
+  margin-bottom: 10px; 
+}
+
+.j1 {
+  font-family: $FontJ;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #727272;
+  margin-bottom: 10px;
+  margin-left: 0; 
+}
+.text91-1{
+  font-family: $FontJ;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 30px;
+  color: #727272;
+  padding-left:10% ;
+  padding-top: 5%;
+  }
+  
+  .text91-0{
+  font-family: $FontJ;
+  font-weight: 700;
+  font-size: 1.375rem;
+  line-height: 30px;
+  color: $darkBlue;
+  padding-left:10% ;
+  }
+  .hen{
+    font-family: $FontJ;
+    font-weight: 700;
+    font-size: 1.375rem;
+    line-height: 30px;
+    color: $darkBlue;
+    padding-left: 5%;
+}
+
+.med{
+    font-family: $FontJ;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 30px;
+    color: #727272;
+    padding-left: 5%;
+
+}
+.sub11{
+  font-family:$FontJ;
+  font-weight: 700;
+  font-size: 1.375rem;
+  line-height: 30px;
+  color: $darkBlue;
+  padding-bottom: 8%;
+  }
+  .nn{
+  font-family:$FontJ;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 30px;
+  color: $darkBlue;
+  padding-bottom: 8%;
+
+  }
+  .title12{
+    position: absolute;
+    width: 830px;
+    font-family: $FontJ;
+    font-weight: 700;
+    font-size: 3.125rem;
+    text-align: center;
+    color: $darkBlue;
+    margin-left: -20%;
+  }
+  
+  .sub12 {
+    position: absolute;
+    font-family: $FontJ;
+    font-size: 0.875rem;
+    text-align: center;
+    letter-spacing: 1.4px;
+    color: $darkBlue;
+    padding-bottom: 2%;
+  }
+
+  
+.date{
+  font-family:$FontJ;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 30px;
+  color: #727272;
+  
+  
+  }
+  .admin{
+  bottom: 10.58%;
+  font-family:$FontJ;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 30px;
+  color: #727272;
+  }
+  .boxtitle{
+  font-family:$FontJ;
+  font-weight: 700;
+  font-size: 1.375rem;
+  line-height: 30px;
+  color: $darkBlue;
+  text-align: left;
+  padding-bottom: 1%;
+  }
+  .boxsub{
+  font-family:$FontJ;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 30px;
+  color: #727272;
+  text-align: left;
+  padding-bottom: 10px;
+  padding-bottom: 2%;
+
+  }
+  .read{
+  font-family:$FontJ;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 30px;
+  color: $darkBlue;
+  text-align: left;
+  }

@@ -24,10 +24,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.icon-Head-Repeated1:before {
+/* .icon-Head-Repeated1:before {
   content: "\e901";
   color:white;
-}.icon-Head-Repeated2:before {
+} */
+.icon-Head-Repeated2:before {
   content: "\e901";
   color: #2437ac;
 }.icon-Head-Repeated4:before {
@@ -330,6 +331,7 @@ top: 6790.04px;
 .icon-dropdownbox:before {
   content: "\e90b";
   color: #2437ac;
+  font-size: 0.5em;
 }.icon-Passports .path1:before {
   content: "\e90c";
   color: rgb(0, 184, 255);

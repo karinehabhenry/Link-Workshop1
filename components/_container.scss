@@ -1,0 +1,324 @@
+.bluebox {
+    position: relative;
+    display: flex;
+    width: 95%;
+    background: #2437AC;
+    border-radius: 50px;
+    margin: auto;
+    box-sizing: border-box;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .body2-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px;
+}
+.body3-container{
+    display: flex;
+    align-items: center;
+}
+.body3-1{
+    display: relative;
+    align-items: center;
+}
+.body3-2{
+    position: relative;
+}
+.body3-21{
+    position: absolute;
+    margin-left: 13%;
+    margin-top: -2%;
+}
+.custom-border {
+    box-sizing: border-box;
+    position: absolute;
+    width: 300px;
+    height: 206px;
+    margin-left: 58%;
+    margin-top: 18%;
+    border: 1px solid #E3DBD8;
+    border-radius: 20px;
+}
+.custom-border2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 300px;
+    height: 206px;
+    margin-left: 80%;
+    margin-top: 18%;
+    border: 1px solid #E3DBD8; 
+    border-radius: 20px; 
+}
+.body4-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50%;
+    
+}
+// .body5-container{
+//     position: relative;
+//     gap: 5px;
+// }
+.body6-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 40px;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px;
+    grid-template-columns: repeat(2, 1fr); /* Adjust the gap between the boxes */
+
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #E3DBD8;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 48%;
+    text-align: center;
+}
+.lowericon{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+
+}
+.body7-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+.view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 156px;
+    height: 60px;
+    background: #00B8FF;
+    border-radius: 999px;
+    margin-left: 85%;
+    margin-top: 6%;
+}
+
+.boards {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #E3DBD8;
+    border-radius: 20px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    // margin: 10px;
+}
+.ll{
+    margin-top: 5%;
+    text-align: left;
+    line-height: 20px;
+
+}
+.body8-container{
+align-items: center;
+justify-content: space-between;
+position: relative;
+margin-bottom: 20%;
+margin-left: -20%;
+}
+.body9-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+.body9-images {
+    padding-top: 12%;
+    gap: 20px;
+}
+.box90-container {
+    display: flex;
+    gap: 20px; 
+}
+.box90 {
+    position: relative;
+    justify-content: space-between;
+    width: 380px;
+    height: 160px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
+    border-radius: 20px 0px 20px 20px;
+    padding: 20px; 
+    margin-left: 20px;
+    margin-top: -8%;
+}
+.body10-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    position: relative;
+    margin: 10%;
+    margin-top: 5%;
+}
+
+.whitebox-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.whitebox-left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.recss{
+    padding-top: 20%;
+}
+.whiterec {
+    box-sizing: border-box;
+    width: 750px;
+    height: 130px;
+    background: #FFFFFF;
+    border: 1px solid #E3DBD8;
+    border-radius: 20px;
+    margin-bottom: 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px; 
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+.body11-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    padding: 20px; 
+    margin-bottom: 5%;
+}
+.body12-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 500px;
+    padding-left: 40%;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 15%;
+    gap: 20px;
+    margin-left: -70%;
+    padding-bottom: 10%;
+
+}
+
+.internalbox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    position: relative;
+
+    .box2{
+        padding-top: 10%;
+    }
+}
+
+.icon-no1-body12, .icon-no2-body12, .icon-no3-body12 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 3;
+}
+
+.sub11 {
+    margin-bottom: 10px;
+    padding-top: 18%;
+}
+.body13-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    margin: 10%;
+}
+
+.boxes13 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px;
+    margin-top: 10%;
+}
+
+.box13 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #E3DBD8;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+}
+
+.img131, .img132, .img133 {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.date-admin-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px 0;
+}

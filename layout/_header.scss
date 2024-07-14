@@ -1,0 +1,50 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    font-family: $FontJ;
+    
+    .logo-container {
+      display: flex;
+      align-items: center;
+      
+      .travelx {
+        font-family: $FontJ;
+        font-weight: 700;
+        font-size: 1.75rem;
+        line-height: 40px;
+        letter-spacing: -1.44px;
+        color: $darkBlue;
+        padding-left: 10px;
+      }
+    }
+    
+    .Menu {
+      display: flex;
+      gap: 24px;
+
+        .navigation {
+          font-weight: 700;
+          font-size: 0.9375rem;
+          line-height: 26px;
+          letter-spacing: 1.4px;
+          text-transform: uppercase;
+          color: $darkBlue;
+        }
+        
+      }
+
+    
+    .appointment {
+      color: white;
+      display: flex;
+      align-items: center;
+       gap: 10px;
+      padding: 0 30px;
+      height: 100%;
+      background-color: #00B8FF;
+      border-radius: 150px;
+      border-color: #00B8FF;
+    }
+  }
